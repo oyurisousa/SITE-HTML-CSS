@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --roxo: #37193b;
+    --rosa: #e75a7a;
+    --pele: #f59275;
+    --creme: #f5c273;
+    --cinza: #aeb395;
+}
+
+html, body{
+    height: 100%;
+}
+
+.center{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 60px;
+    background-color: var(--roxo);
+}
+
+header img{
+    margin: 17px;
+}
+.container-banner{
+    width: 100%;
+    height: 557px;
+    background-image: url('../imagens/banner.jpg');
+    background-size: cover;
+}
+.container-banner > .center{
+    height: 100%;
+}
+.form{
+    width: 400px;
+    height: 100%;
+    float: right;
+    background-color: white;
+}
